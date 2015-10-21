@@ -1,36 +1,10 @@
 {
-  "name" : "Kazi Tanvir Ahsan",
-  "description" : "test",
-  "license" : "MIT" ,
-  "keywords" : [""],
-  "authors" : [
-      {
-        "name" : "Kazi Tanvir ahsan",
-        "email" : "ktanvirahsan@gmail.com"
-      }
-  ],
-  "repositories": [
-    {
-        "type": "package",
-        "package": {
-            "name": "weaverryan/derp-dangerzone",
-            "version": "dev-master",
-            "source": {
-                "url": "git://github.com/weaverryan/derp-dangerzone.git",
-                "type": "git",
-                "reference": "master"
-            },
-            "autoload": {
-                "psr-0" : {
-                    "Weaverryan\\DangerZone" : "src"
-                }
-            }
+    "require": {
+    },
+
+    "autoload": {
+        "psr-0": { 
+            "Dao": "src"
         }
     }
-],
-  "require" : {},
-  "require-dev" : {
-    "phpunit/phpunit" : "4.0.*"
-  }
-
 }
